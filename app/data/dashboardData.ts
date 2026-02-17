@@ -242,19 +242,20 @@ export const loaninvoice = [
 ] 
 
 export const repaymentinvoice = [
-{
-  name: "Bade Ayobade",
-  id: 808089,
-  paymentmethod: "Bank",
-  account: 1000,
-  repaymentdate: new Date("2022-05-22").getTime(), // number timestamp,
-},
-   {
-      name: "Bade Ayobade" ,
-      id: "#808089",
-      paymentmethod: "Online transfer",
-      account: "1,000",
-      repaymentdate: new Date("2022-05-22").getTime(), // number timestamp, 
-   },  
-]
+  {
+    name: "Bade Ayobade",
+    id: 808089,                      // number
+    paymentmethod: "Bank",
+    account: 1000,                    // number
+    repaymentdate: new Date("2022-05-22").getTime(), // number
+  },
+  {
+    name: "John Doe",
+    id: 808090,
+    paymentmethod: "Bank",
+    account: 5000,
+    repaymentdate: new Date("2022-06-15").getTime(),
+  },
+];
+
 
