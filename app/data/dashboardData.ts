@@ -169,7 +169,7 @@ export const paymentInvoices2 = [
 export const loaninvoice = [
    {
     name: "Bade Ayobade #8089089",
-    date: "2/10/22",        
+    date: new Date("2022-02-10").getTime(),        
     repayment: new Date("2022-10-25").getTime(),  
     principal: 60000,
     fee: 200,
