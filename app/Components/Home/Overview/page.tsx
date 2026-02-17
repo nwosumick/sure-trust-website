@@ -36,7 +36,7 @@ const OverviewPage = () => {
       </div>
 
       {/* Payment Invoice */}
-      <div className="w-full lg:w-[60%] md:w-[80%] lg:mx-50 md:mx-auto mt-10 p-4 sm:p-6 bg-white shadow rounded overflow-x-auto">
+      <div className="w-full lg:w-[60%] md:w-[80%] lg:mx-46 md:mx-auto mt-10 p-4 sm:p-6 bg-white shadow rounded overflow-x-auto">
 
         <h1 className="text-lg sm:text-xl font-semibold mb-4">
           Recent Payment Invoices
@@ -58,7 +58,7 @@ const OverviewPage = () => {
       </div>
 
       
-      <div className="w-full lg:ml-22 md:w-[80%] md:mx-auto mt-10 p-4">
+      <div className="w-full  lg:ml-22 md:w-[80%] md:mx-auto -mt-1 p-4">
         <UserOverviewChart />
       </div>
 

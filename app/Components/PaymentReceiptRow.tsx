@@ -19,12 +19,12 @@ const PaymentReceiptRow = ({ account }: Props) => {
       {/* Date with calendar icon */}
       <div className="flex items-center gap-2">
         <Calendar size={16} className="text-gray-400" />
-        <span>{account.date}</span>
+        <span className="whitespace-nowrap">{account.date}</span>
       </div>
 
-      <span>{account.amount}</span>
+      <span className="lg:ml-1 ml-20">{account.amount}</span>
 
-      <span className="text-green-600 bg-green-200 hover:bg-green-400 rounded font-medium py-3 px-3 text-center w-20">
+      <span className="text-green-600 bg-green-200 hover:bg-green-400 rounded font-medium py-3 px-3 text-center lg:ml-1 ml-32 w-20">
         {account.status}
       </span>
 

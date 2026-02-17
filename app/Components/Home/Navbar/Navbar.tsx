@@ -1,3 +1,4 @@
+"use client";
 import { sidebarLinks } from "@/Constant/constant";
 import Image from "next/image";
 import Link from "next/link";
@@ -60,7 +61,7 @@ const Navbar = ({ openNav }: Props) => {
       </nav>
 
       {/* Desktop Sidebar inside Navbar */}
-      <aside className="hidden lg:flex flex-col fixed top-16 left-0  w-40 bg-white z-40 p-6">
+      <aside className="hidden lg:flex flex-col fixed top-16 left-0  w-40 z-40 p-4">
     
         {/* Links */}
         <nav className="flex flex-col mt-10 space-y-6">

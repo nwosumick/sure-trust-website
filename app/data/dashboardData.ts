@@ -167,22 +167,22 @@ export const paymentInvoices2 = [
 ]
 
 export const loaninvoice = [
-   {
-    name: "Bade Ayobade #8089089",
-    date: new Date("2022-02-10").getTime(),       
-    repayment: new Date("2022-10-25").getTime(),   
-    principal: 60000,
-    fee: 200,
-    penalty: 10,
-    due: 2500,
-    amount: 1600,
-    balance: 29000,
-    status: "Active"
-  },
+ {
+  name: "Bade Ayobade #8089089",
+  date: "2022-02-10",      // Loan start date
+  repayment: "2022-10-25", // Repayment date
+  principal: 60000,
+  fee: 200,
+  penalty: 10,
+  due: 2500,
+  amount: 1600,
+  balance: 29000,
+  status: "Active"
+ },
   {
     name: "Mane Ayobade #8089089",
-    date: new Date("2022-02-10").getTime(),
-    repayment: new Date("2022-10-25").getTime(),
+    date: "2022-02-10",
+    repayment: "2022-10-25",
     principal: 60000,
     fee: 200,
     penalty: 10,
@@ -193,8 +193,8 @@ export const loaninvoice = [
   },
   {
     name: "Gabriel Sanu #8089089",
-    date: new Date("2022-02-10").getTime(),
-    repayment: new Date("2022-10-25").getTime(),
+    date: "2022-02-10",
+    repayment: "2022-10-25",
     principal: 60000,
     fee: 200,
     penalty: 10,
@@ -205,8 +205,8 @@ export const loaninvoice = [
   },
   {
     name: "Kunle Afolabi #8089089",
-    date: new Date("2022-02-10").getTime(),
-    repayment: new Date("2022-10-25").getTime(),
+    date: "2022-02-10",
+    repayment: "2022-10-25",
     principal: 60000,
     fee: 200,
     penalty: 10,
@@ -217,8 +217,8 @@ export const loaninvoice = [
   },
   {
     name: "Michael Ceaser #8089089",
-    date: new Date("2022-02-10").getTime(),
-    repayment: new Date("2022-10-25").getTime(),
+    date: "2022-02-10",
+    repayment: "2022-10-25",
     principal: 60000,
     fee: 200,
     penalty: 10,
@@ -229,8 +229,8 @@ export const loaninvoice = [
   },
   {
     name: "John Paul #8089089",
-    date: new Date("2022-02-10").getTime(),
-    repayment: new Date("2022-10-25").getTime(),
+    date: "2022-02-10",
+    repayment: "2022-10-25",
     principal: 60000,
     fee: 200,
     penalty: 10,

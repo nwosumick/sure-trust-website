@@ -60,14 +60,14 @@ const DisbursedChart = () => {
   };
 
   return (
-    <div className="bg-white p-6 ml-10 rounded-xl shadow">
+    <div className="bg-white p-6 ml-8 rounded-xl shadow">
       <h2 className="text-lg font-semibold mb-4">
         Disbursed vs Repayments
       </h2>
 
       
         {/* YEARLY */}
-        <span className="text-sm ml-[700]  text-gray-500 cursor-pointer">
+        <span className="text-sm ml-[600]  text-gray-500 cursor-pointer">
           Yearly ▾
         </span>
 

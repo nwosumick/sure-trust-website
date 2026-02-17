@@ -1,5 +1,3 @@
-"use client";
-
 import { repaymentinvoice } from "@/data/dashboardData";
 import RepaymentReceiptrow from "@/RepaymentReceiptrow";
 import { ChevronLeft, ChevronRight } from "lucide-react";

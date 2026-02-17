@@ -1,5 +1,3 @@
-"use client";
-
 import { ChevronLeft, ChevronRight, SlidersHorizontal } from "lucide-react";
 import React from "react";
 import { paymentInvoices2 } from "../data/dashboardData";

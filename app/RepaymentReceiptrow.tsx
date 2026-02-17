@@ -22,6 +22,7 @@ const RepaymentReceiptrow = ({account}: Props) => {
       <span>{account.paymentmethod}</span>
       <span>{account.account}</span>
       <span>{account.repaymentdate}</span>
+      
 
 
       <MoreVertical className="flex items-center justify-center lg:ml-[870] md:ml-[625] ml-[345] lg:-mt-10 md:-mt-11 -mt-15 "/>

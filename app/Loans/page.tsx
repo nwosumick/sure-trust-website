@@ -1,5 +1,3 @@
-"use client";
-
 import { ChevronLeft, ChevronRight, MessageCircle, Phone } from "lucide-react";
 import React from "react";
 import { FaWhatsapp } from "react-icons/fa";

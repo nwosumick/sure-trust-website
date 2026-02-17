@@ -1,3 +1,4 @@
+"use client"
 import { sidebarLinks } from "@/Constant/constant";
 import Link from "next/link";
 import React from "react";
