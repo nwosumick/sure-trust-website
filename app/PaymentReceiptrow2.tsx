@@ -3,12 +3,12 @@ import React from "react";
 
 type Props = {
   account: {
-    id: number;
+    id: string;
     name: string;
     email: string;
     address: string;
     status: string;
-    loanreceived: number;
+    loanreceived: string;
   };
 };
 
