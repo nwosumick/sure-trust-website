@@ -2,20 +2,19 @@ import { MoreVertical } from 'lucide-react';
 import React from 'react'
 
 type Props = {
-   account: {
-     name: string;
-     date: string;
-     repayment: number;
-     principal: number;
-     fee: number;
-     penalty: number;
-     due: number;
-     amount: number;
-     balance: number;
-     status: string; 
-
-   }   
-}
+  account: {
+    name: string;
+    date: number;        // timestamp now
+    repayment: number;   // timestamp now
+    principal: number;
+    fee: number;
+    penalty: number;
+    due: number;
+    amount: number;
+    balance: number;
+    status: string;
+  };
+};
 
 const LoanReceiptrow = ({ account }: Props ) => {
   const statusStyle = 
