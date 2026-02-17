@@ -168,77 +168,77 @@ export const paymentInvoices2 = [
 
 export const loaninvoice = [
    {
-     name: "Bade Ayobade #8089089",
-     date: "2/10/22",
-     repayment: "25/10/22",
-     principal: "60,000",
-     fee: "200",
-     penalty: "10",
-     due: "2,500",
-     amount: "1,600",
-     balance: "29,000",
-     status: "Active"
-   },
-   {
-     name: "Mane Ayobade #8089089",
-     date: "2/10/22",
-     repayment: "25/10/22",
-     principal: "60,000",
-     fee: "200",
-     penalty: "10",
-     due: "2,500",
-     amount: "1,600",
-     balance: "29,000",
-     status: "Overdue"
-   },
-   {
-     name: "Gabriel Sanu #8089089",
-     date: "2/10/22",
-     repayment: "25/10/22",
-     principal: "60,000",
-     fee: "200",
-     penalty: "10",
-     due: "2,500",
-     amount: "1,600",
-     balance: "29,000",
-     status: "Active"
-   },
-   {
-     name: "Kunle Afolabi #8089089",
-     date: "2/10/22",
-     repayment: "25/10/22",
-     principal: "60,000",
-     fee: "200",
-     penalty: "10",
-     due: "2,500",
-     amount: "1,600",
-     balance: "29,000",
-     status: "Active"
-   },
-   {
-     name: "Michael Ceaser #8089089",
-     date: "2/10/22",
-     repayment: "25/10/22",
-     principal: "60,000",
-     fee: "200",
-     penalty: "10",
-     due: "2,500",
-     amount: "1,600",
-     balance: "29,000",
-     status: "Active"
-   },
-    {
-     name: "John Paul #8089089",
-     date: "2/10/22",
-     repayment: "25/10/22",
-     principal: "60,000",
-     fee: "200",
-     penalty: "10",
-     due: "2,500",
-     amount: "1,600",
-     balance: "29,000",
-     status: "Active"
-   },
+    name: "Bade Ayobade #8089089",
+    date: new Date("2022-02-10").getTime(),       
+    repayment: new Date("2022-10-25").getTime(),   
+    principal: 60000,
+    fee: 200,
+    penalty: 10,
+    due: 2500,
+    amount: 1600,
+    balance: 29000,
+    status: "Active"
+  },
+  {
+    name: "Mane Ayobade #8089089",
+    date: new Date("2022-02-10").getTime(),
+    repayment: new Date("2022-10-25").getTime(),
+    principal: 60000,
+    fee: 200,
+    penalty: 10,
+    due: 2500,
+    amount: 1600,
+    balance: 29000,
+    status: "Overdue"
+  },
+  {
+    name: "Gabriel Sanu #8089089",
+    date: new Date("2022-02-10").getTime(),
+    repayment: new Date("2022-10-25").getTime(),
+    principal: 60000,
+    fee: 200,
+    penalty: 10,
+    due: 2500,
+    amount: 1600,
+    balance: 29000,
+    status: "Active"
+  },
+  {
+    name: "Kunle Afolabi #8089089",
+    date: new Date("2022-02-10").getTime(),
+    repayment: new Date("2022-10-25").getTime(),
+    principal: 60000,
+    fee: 200,
+    penalty: 10,
+    due: 2500,
+    amount: 1600,
+    balance: 29000,
+    status: "Active"
+  },
+  {
+    name: "Michael Ceaser #8089089",
+    date: new Date("2022-02-10").getTime(),
+    repayment: new Date("2022-10-25").getTime(),
+    principal: 60000,
+    fee: 200,
+    penalty: 10,
+    due: 2500,
+    amount: 1600,
+    balance: 29000,
+    status: "Active"
+  },
+  {
+    name: "John Paul #8089089",
+    date: new Date("2022-02-10").getTime(),
+    repayment: new Date("2022-10-25").getTime(),
+    principal: 60000,
+    fee: 200,
+    penalty: 10,
+    due: 2500,
+    amount: 1600,
+    balance: 29000,
+    status: "Active"
+  }
 ] 
 
 export const repaymentinvoice = [

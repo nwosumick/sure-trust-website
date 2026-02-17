@@ -4,7 +4,7 @@ import React from 'react'
 type Props = {
    account: {
      name: string;
-     date: number;
+     date: string;
      repayment: number;
      principal: number;
      fee: number;
