@@ -247,14 +247,14 @@ export const repaymentinvoice = [
   id: 808089,
   paymentmethod: "Bank",
   account: 1000,
-  repaymentdate: "22/05/22",
+  repaymentdate: new Date("2022-05-22").getTime(), // number timestamp,
 },
    {
       name: "Bade Ayobade" ,
       id: "#808089",
       paymentmethod: "Online transfer",
       account: "1,000",
-      repaymentdate: "22/05/22", 
+      repaymentdate: new Date("2022-05-22").getTime(), // number timestamp, 
    },  
 ]
 
