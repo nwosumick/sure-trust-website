@@ -25,7 +25,7 @@ const RepaymentReceiptrow = ({account}: Props) => {
       
 
 
-      <MoreVertical className="flex items-center justify-center lg:ml-[870] md:ml-[625] ml-[345] lg:-mt-10 md:-mt-11 -mt-15 "/>
+      <MoreVertical className="flex items-center justify-center lg:ml-[890] md:ml-[625] ml-[345] lg:-mt-10 md:-mt-11 -mt-15 "/>
     </div>
 
 
