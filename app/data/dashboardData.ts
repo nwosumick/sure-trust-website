@@ -169,8 +169,8 @@ export const paymentInvoices2 = [
 export const loaninvoice = [
    {
     name: "Bade Ayobade #8089089",
-    date: new Date("2022-02-10").getTime(),        
-    repayment: new Date("2022-10-25").getTime(),  
+    date: "2/10/22",        
+    repayment: "25/04/25",  
     principal: 60000,
     fee: 200,
     penalty: 10,
@@ -181,8 +181,8 @@ export const loaninvoice = [
   },
   {
     name: "Mane Ayobade #8089089",
-    date: new Date("2022-02-10").getTime(),
-    repayment: new Date("2022-10-25").getTime(),
+    date: "2/10/22",        
+    repayment: "25/04/25",  
     principal: 60000,
     fee: 200,
     penalty: 10,
@@ -193,8 +193,8 @@ export const loaninvoice = [
   },
   {
     name: "Gabriel Sanu #8089089",
-    date: new Date("2022-02-10").getTime(),
-    repayment: new Date("2022-10-25").getTime(),
+    date: "2/10/22",        
+    repayment: "25/04/25",  
     principal: 60000,
     fee: 200,
     penalty: 10,
@@ -205,8 +205,8 @@ export const loaninvoice = [
   },
   {
     name: "Kunle Afolabi #8089089",
-    date: new Date("2022-02-10").getTime(),
-    repayment: new Date("2022-10-25").getTime(),
+    date: "2/10/22",        
+    repayment: "25/04/25",  
     principal: 60000,
     fee: 200,
     penalty: 10,
@@ -217,8 +217,8 @@ export const loaninvoice = [
   },
   {
     name: "Michael Ceaser #8089089",
-    date: new Date("2022-02-10").getTime(),
-    repayment: new Date("2022-10-25").getTime(),
+    date: "2/10/22",        
+    repayment: "25/04/25",  
     principal: 60000,
     fee: 200,
     penalty: 10,
@@ -229,8 +229,8 @@ export const loaninvoice = [
   },
   {
     name: "John Paul #8089089",
-    date: new Date("2022-02-10").getTime(),
-    repayment: new Date("2022-10-25").getTime(),
+    date: "2/10/22",        
+    repayment: "25/04/25",  
     principal: 60000,
     fee: 200,
     penalty: 10,
@@ -244,17 +244,17 @@ export const loaninvoice = [
 export const repaymentinvoice = [
   {
     name: "Bade Ayobade",
-    id: 808089,                      // number
+    id: 808089,                     
     paymentmethod: "Bank",
-    account: 1000,                    // number
-    repaymentdate: new Date("2022-05-22").getTime(), // number
+    account: 1000,                    
+    repaymentdate: "22/05/22",
   },
   {
     name: "John Doe",
     id: 808090,
-    paymentmethod: "Bank",
+    paymentmethod: "Online transfer",
     account: 5000,
-    repaymentdate: new Date("2022-06-15").getTime(),
+    repaymentdate: "20/02/26",
   },
 ];
 

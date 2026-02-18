@@ -5,7 +5,7 @@ import React from "react";
 
 const Page = () => {
   return (
-    <div className="pt-32 pb-16 px-4 min-h-screen ">
+    <div className="pt-10 pb-16 px-4 min-h-screen ">
       <div className="w-full max-w-5xl mx-auto shadow rounded bg-white p-4 sm:p-6">
 
         {/* Top Bar */}
@@ -17,8 +17,8 @@ const Page = () => {
           <span>Name</span>
           <span>ID</span>
           <span className="-ml-4">Payment Method</span>
-          <span className="-ml-2">Account</span>
-          <span>Repayment Date</span>
+          <span>Account</span>
+          <span className="ml-5">Repayment Date</span>
         </div>
 
         {/* Rows */}

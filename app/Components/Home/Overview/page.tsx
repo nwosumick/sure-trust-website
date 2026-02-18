@@ -8,10 +8,10 @@ import UserOverviewChart from "../../UserOverviewCart";
 
 const OverviewPage = () => {
   return (
-    <div className="pt-24 pb-16 px-4 md:px-0">
+    <div className="pt-8 pb-16 px-4 md:px-0">
 
       {/* TOP CARDS */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-full md:w-[70%] md:mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-full md:w-[80%] md:mx-auto">
         {accountdata.map((account, index) => (
           <OverviewAccountCard
             key={account.id}
@@ -24,7 +24,7 @@ const OverviewPage = () => {
       {/* CHART + SMALL CARDS */}
       <div className="flex flex-col lg:flex-row gap-6 mt-10 w-full md:w-[80%] md:mx-auto">
 
-        <div className="w-full lg:w-2/3">
+        <div className="w-full lg:max-w-5xl">
           <DisbursedChart />
         </div>
 
@@ -36,19 +36,19 @@ const OverviewPage = () => {
       </div>
 
       {/* Payment Invoice */}
-      <div className="w-full lg:w-[60%] md:w-[80%] lg:mx-46 md:mx-auto mt-10 p-4 sm:p-6 bg-white shadow rounded overflow-x-auto">
+      <div className="w-full lg:w-[60%] md:w-[80%] lg:mx-36 md:mx-auto mt-10 p-6 sm:p-6 bg-white shadow rounded overflow-x-auto">
 
         <h1 className="text-lg sm:text-xl font-semibold mb-4">
           Recent Payment Invoices
         </h1>
 
         {/* Header */}
-        <div className="grid grid-cols-4 min-w-[500px] font-semibold text-gray-500 border-b 
+        <div className="grid grid-cols-4 min-w-[450] font-semibold text-gray-500 border-b 
         border-gray-200 pb-2 text-sm">
           <span>ID</span>
           <span>Date</span>
           <span>Amount</span>
-          <span>Status</span>
+          <span className="ml-5">Status</span>
         </div>
 
         {/* Rows */}
@@ -58,7 +58,7 @@ const OverviewPage = () => {
       </div>
 
       
-      <div className="w-full  lg:ml-22 md:w-[80%] md:mx-auto -mt-1 p-4">
+      <div className="w-full lg:ml-10 md:ml-14 -ml-4 md:w-[80%] md:mx-auto  p-4">
         <UserOverviewChart />
       </div>
 

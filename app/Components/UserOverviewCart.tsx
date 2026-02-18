@@ -12,7 +12,7 @@ const COLORS = ["#f2b5b5", "#9bd48c", "#f5d18a"];
 
 const UserOverviewChart = () => {
   return (
-    <div className="bg-white p-6 rounded shadow w-full lg:max-w-2xs mx-auto lg:mx-[87%] lg:-mt-[36%]">
+    <div className="bg-white p-6 rounded shadow w-[355] md:w-[567] lg:max-w-2xs mx-auto lg:mx-[87%] lg:-mt-[36%]">
       <h2 className="text-lg font-semibold mb-4">User Overview</h2>
 
       <ResponsiveContainer width="100%" height={298}>

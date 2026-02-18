@@ -5,7 +5,7 @@ import PaymentReceiptrow2 from "../PaymentReceiptrow2";
 
 const Page = () => {
   return (
-    <div className="pt-24 pb-10 px-3">
+    <div className="pt-10 pb-10 px-3">
       <div className="w-full max-w-6xl mx-auto bg-gray-50 shadow rounded">
 
         {/* Top bar */}

@@ -6,7 +6,7 @@ import LoanReceiptrow from "../LoanReceiptrow";
 
 const Page = () => {
   return (
-    <div className="pt-32 pb-16 px-4 lg:ml-10 min-h-screen">
+    <div className="pt-10 pb-16 px-4 lg:ml-10 min-h-screen">
       <div className="w-full max-w-5xl mx-auto bg-gray-50 shadow rounded p-4 sm:p-8">
         
         {/* Top Bar */}

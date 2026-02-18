@@ -12,7 +12,7 @@ type Props = {
 
 const PaymentReceiptRow = ({ account }: Props) => {
   return (
-    <div className="grid grid-cols-4 py-3 border-b  border-gray-100 text-sm text-gray-700 items-center">
+    <div className="grid grid-cols-4 py-3 border-b border-gray-100 text-sm text-gray-700 items-center">
 
       <span>{account.id}</span>
 

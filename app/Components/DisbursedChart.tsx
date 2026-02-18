@@ -60,19 +60,27 @@ const DisbursedChart = () => {
   };
 
   return (
-    <div className="bg-white p-6 ml-8 rounded-xl shadow">
-      <h2 className="text-lg font-semibold mb-4">
-        Disbursed vs Repayments
-      </h2>
+<div className="bg-white w-full max-w-5xl mx-auto p-4 sm:p-6 rounded-xl shadow">
 
-      
-        {/* YEARLY */}
-        <span className="text-sm ml-[600]  text-gray-500 cursor-pointer">
-          Yearly ▾
-        </span>
+  {/* Header */}
+  <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4 gap-2">
+    <h2 className="text-base sm:text-lg font-semibold">
+      Disbursed vs Repayments
+    </h2>
 
-      <Line data={data} options={options} />
-    </div>
+    {/* Dropdown */}
+    <span className="text-sm text-gray-500 cursor-pointer self-start sm:self-auto">
+      Yearly ▾
+    </span>
+  </div>
+
+  {/* Chart */}
+  <div className="w-full overflow-x-auto">
+    <Line data={data} options={options} />
+  </div>
+
+</div>
+
   );
 };
 

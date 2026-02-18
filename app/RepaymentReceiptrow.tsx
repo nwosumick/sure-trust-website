@@ -9,7 +9,7 @@ type Props = {
     id: number;
     paymentmethod: string;
     account: number;
-    repaymentdate: number;
+    repaymentdate: string;
 
   }
 }

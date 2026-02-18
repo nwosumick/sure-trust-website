@@ -4,8 +4,8 @@ import React from 'react'
 type Props = {
   account: {
     name: string;
-    date: number;        // timestamp now
-    repayment: number;   // timestamp now
+    date: string;       
+    repayment: string;   
     principal: number;
     fee: number;
     penalty: number;
