@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import { FiPhoneIncoming, FiPhoneMissed } from "react-icons/fi";
 
 type Props = {
@@ -16,25 +15,20 @@ type Props = {
 
 const OverviewAccountCard = ({ account, isFirst = false }: Props) => {
   const showIncoming =
-    account.title === "Active Loans" || account.title === "Total Disbursed";
+    account.title === "Active Loans" || account.title === "Total disturbed";
 
-  const showMissed = account.title === "Total Repaid";
+  const showMissed = account.title === "Total repaid";
 
   return (
     <div
       className={`rounded-xl p-5 transition-all ${
         isFirst
           ? "bg-blue-600 text-white"
-          : "bg-white border border-gray-200 hover:bg-blue-600 hover:text-white duration-200"
+          : "bg-white border border-gray-200 hover:bg-blue-600 transition-all duration-200"
       }`}
     >
-      <div className="flex gap-2 mb-3 items-center">
-        <Image
-          src={account.image}
-          alt={account.title}
-          width={32}
-          height={32}
-        />
+      <div className="flex gap-2 mb-3">
+        <img src={account.image} alt={account.title} className="w-8 h-8" />
         <p className="text-sm">{account.title}</p>
       </div>
 
@@ -42,14 +36,19 @@ const OverviewAccountCard = ({ account, isFirst = false }: Props) => {
 
       {account.percentage && (
         <div className="flex gap-2 items-center text-xs mt-2">
+
           {showIncoming && <FiPhoneIncoming className="text-green-500" />}
+
           {showMissed && <FiPhoneMissed className="text-red-500" />}
 
           <span>
             {account.percentage} / {account.month}
           </span>
+
         </div>
       )}
+
+      
     </div>
   );
 };
