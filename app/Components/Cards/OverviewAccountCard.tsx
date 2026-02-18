@@ -14,11 +14,19 @@ type Props = {
 };
 
 const OverviewAccountCard = ({ account, isFirst = false }: Props) => {
-  // Incoming icon for Active Loans & Total Disturbed
+  // Map id to image path in public folder
+  const imageMap: Record<number, string> = {
+    1: "/images/item1.png",
+    2: "/images/item2.png",
+    3: "/images/item3.png",
+    4: "/images/item4.png",
+  };
+
+  const imageSrc = imageMap[account.id];
+
+  // Icon logic
   const showIncoming =
     account.title === "Active Loans" || account.title === "Total Disturbed";
-
-  // Missed icon for Total Repaid
   const showMissed = account.title === "Total Repaid";
 
   return (
@@ -30,12 +38,7 @@ const OverviewAccountCard = ({ account, isFirst = false }: Props) => {
       }`}
     >
       <div className="flex gap-2 mb-3 items-center">
-        <Image
-          src={`/images/item${account.id}.png`}
-          alt="title"
-          width={32}
-          height={32}
-        />
+        <Image src={imageSrc} alt="" width={32} height={32} />
         <p className="text-sm">{account.title}</p>
       </div>
 
