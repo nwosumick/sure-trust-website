@@ -16,7 +16,7 @@ export const accountdata = [
   {
       id: 3,
       image: "/images/item3.png",
-      title: "Total disturbed",
+      title: "Total Disturbed",
       balance: "₦50,000",
       percentage: "+13%",
       month: "Month"
@@ -24,7 +24,7 @@ export const accountdata = [
   {
       id: 4,
       image: "/images/item4.png",
-      title: "Total repaid",
+      title: "Total Repaid",
       balance: "₦50,600",
       percentage: "+13%",
       month: "Month"

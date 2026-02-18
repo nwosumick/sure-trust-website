@@ -3,8 +3,7 @@ import { FiPhoneIncoming, FiPhoneMissed } from "react-icons/fi";
 
 type Props = {
   account: {
-    id: number;
-    image: string;
+    id: number; // 1–4
     title: string;
     balance: string;
     percentage?: string;
@@ -14,10 +13,12 @@ type Props = {
 };
 
 const OverviewAccountCard = ({ account, isFirst = false }: Props) => {
+  // Incoming icon for Active Loans & Total Disbursed
   const showIncoming =
-    account.title === "Active Loans" || account.title === "Total disturbed";
+    account.title === "Active Loans" || account.title === "Total Disturbed";
 
-  const showMissed = account.title === "Total repaid";
+  // Missed icon for Total Repaid
+  const showMissed = account.title === "Total Repaid";
 
   return (
     <div
@@ -27,28 +28,27 @@ const OverviewAccountCard = ({ account, isFirst = false }: Props) => {
           : "bg-white border border-gray-200 hover:bg-blue-600 transition-all duration-200"
       }`}
     >
-      <div className="flex gap-2 mb-3">
-        <img src={account.image} alt={account.title} className="w-8 h-8" />
+      <div className="flex gap-2 mb-3 items-center">
+        <img
+          src={`/images/item${account.id}.png`}
+          alt={account.title}
+          className="w-8 h-8"
+        />
         <p className="text-sm">{account.title}</p>
       </div>
 
       <h2 className="text-xl font-semibold">{account.balance}</h2>
 
-      {account.percentage && (
-        <div className="flex gap-2 items-center text-xs mt-2">
-
-          {showIncoming && <FiPhoneIncoming className="text-green-500" />}
-
-          {showMissed && <FiPhoneMissed className="text-red-500" />}
-
+      {/* Icons always visible */}
+      <div className="flex gap-2 items-center text-xs mt-2">
+        {showIncoming && <FiPhoneIncoming className="text-green-500" />}
+        {showMissed && <FiPhoneMissed className="text-red-500" />}
+        {account.percentage && (
           <span>
             {account.percentage} / {account.month}
           </span>
-
-        </div>
-      )}
-
-      
+        )}
+      </div>
     </div>
   );
 };
